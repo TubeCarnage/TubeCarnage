@@ -7,6 +7,13 @@ using UnityEngine.UI;
 public class Player : NetworkBehaviour
 {
     public BaseCar Car;
+    public ThirdPersonCamera Camera;
+
+    public void LateUpdate()
+    {
+        if (isLocalPlayer)
+            Camera.LateSimulate();
+    }
 
     public void FixedUpdate()
     {

@@ -195,7 +195,7 @@ GameObject:
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1397404420499014
 GameObject:
   m_ObjectHideFlags: 1
@@ -677,7 +677,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1413529962047036}
   m_LocalRotation: {x: -0, y: -0.32642037, z: -0, w: 0.94522476}
-  m_LocalPosition: {x: -259.44885, y: 401.01746, z: -183.22992}
+  m_LocalPosition: {x: 220.01524, y: 1905.5148, z: 1942.3552}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4548254227609464}
@@ -1106,6 +1106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Car: {fileID: 114607696924150198}
+  Camera: {fileID: 114121747308239542}
 --- !u!114 &114146797494322274
 MonoBehaviour:
   m_ObjectHideFlags: 1

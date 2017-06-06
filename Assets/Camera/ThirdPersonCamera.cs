@@ -11,7 +11,7 @@ public class ThirdPersonCamera : MonoBehaviour
     public float DistSmoothing = 1.0f;
     public float RotSmoothing = 2.0f;
 
-    void LateUpdate()
+    public void LateSimulate()
     {
         GetComponent<Camera>().fieldOfView = Car.CurrentSpeed * 0.05f + 70;
 
